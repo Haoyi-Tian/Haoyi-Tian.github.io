@@ -1,0 +1,65 @@
+/*THEME COLORS:
+Gray: #F2F2F2
+Blue1: #9BC2E6
+Blue2: #8EA9DB
+Blue3: #4471A7
+Blue4: #264778
+*/
+
+.sidenav {
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 120px;
+  left: 40px;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #4471A7;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #9BC2E6;
+}
+
+.header {
+  position: fixed;
+  top:0px; left: 0px;
+  width: 100%;
+  height: 120px;
+  background-color: #D2D2D2;
+  overflow: hidden;
+}
+
+.main {
+  margin-top: 0px;
+  margin-left: 220px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 40px;
+  border-left: 1px solid #4471A7;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  width: 50%;
+}
+
+body {
+  background-color: #F2F2F2;
+  padding: 120px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {font-size: 50px; font-weight: 100; margin: 54px 0px 0px 50px; color: #264778;}
+h2 {font-size: 36px; font-weight: 700; margin: 5px 0px 0px 0px; padding: 30px 0px 10px 0px; color: #3F3F3F;}
+p  {font-size: 24px; font-weight: 100; margin: 0px 0px 0px 0px; padding: 10px 0px 0px 0px; line-height: 1.5; color: #6F6F6F;}
