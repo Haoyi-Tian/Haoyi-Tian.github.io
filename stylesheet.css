@@ -38,9 +38,7 @@ Blue4: #264778
 }
 
 .main {
-  margin-top: 0px;
-  margin-left: 220px; /* Same width as the sidebar + left position in px */
-  font-size: 28px; /* Increased text to enable scrolling */
+  margin: 5px 0px 5px 220px;
   padding: 0px 40px;
   border-left: 1px solid #4471A7;
 }
@@ -61,5 +59,5 @@ body {
 }
 
 h1 {font-size: 50px; font-weight: 400; margin: 54px 0px 0px 50px; color: #264778;}
-h2 {font-size: 36px; font-weight: 700; margin: 5px 0px 0px 0px; padding: 30px 0px 10px 0px; color: #3F3F3F;}
+h2 {font-size: 36px; font-weight: 700; margin: 0px 0px 0px 0px; padding: 30px 0px 10px 0px; color: #3F3F3F;}
 p  {font-size: 24px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 10px 0px 0px 0px; line-height: 1.5; color: #6F6F6F;}
