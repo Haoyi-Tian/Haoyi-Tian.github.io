@@ -37,18 +37,42 @@ Blue4: #264778
   color: #9BC2E6;
 }
 
-.main {
-  margin: 8px 0px 8px 220px;
-  padding: 0px 40px;
-  border-left: 1px solid #4471A7;
-}
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 40px;
   width: 50%;
+}
+
+.button {
+    background-color: #E2E2E2;
+    border: 3px solid #8F8F8F;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position:absolute; right: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+.button:hover{
+  border: 3px solid #6F6F6F;
+  background-color: #D2D2D2;
+}
+
+.project_banner{
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  margin: 8px 0px 8px 220px;
+  padding: 0px 40px;
+  border-left: 1px solid #4471A7;
 }
 
 body {
@@ -60,4 +84,6 @@ body {
 
 h1 {font-size: 54px; font-weight: 400; margin: 36px 0px 0px 50px; color: #264778;}
 h2 {font-size: 36px; font-weight: 700; margin: 0px 0px 0px 0px; padding: 30px 0px 10px 0px; color: #3F3F3F;}
-p  {font-size: 24px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 10px 0px 0px 0px; line-height: 1.5; color: #6F6F6F;}
+h3 {font-size: 30px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; color: #3F3F3F;}
+p  {font-size: 24px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; line-height: 1.5; color: #6F6F6F;}
+a  {text-decoration: none;}
