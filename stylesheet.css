@@ -5,7 +5,6 @@ Blue2: #8EA9DB
 Blue3: #4471A7
 Blue4: #264778
 */
-
 .header {
   position: fixed;
   top:0px; left: 0px;
@@ -37,38 +36,39 @@ Blue4: #264778
   color: #9BC2E6;
 }
 
-.center {
+.center_element {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40px;
-  width: 50%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.left_element{
+  float: left;
+  margin: 10px 30px 10px 6px;
+}
+
+.right_element{
+  float: right;
+  margin: 10px 6px 10px 30px;
 }
 
 .button {
-    width: 306px;
-    height: 36px;
-    float: right;
-    margin-top: 6px;
-    border: 2px solid #8F8F8F;
-    background-color: #E2E2E2;
-    border-radius: 8px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 400;
-    color: #6F6F6F;
+  width: 306px;
+  height: 36px;
+  margin-top: 5px;
+  border: 2px solid #8F8F8F;
+  background-color: #E2E2E2;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  color: #6F6F6F;
 }
 
 .button:hover{
   border: 2px solid #6F6F6F;
   background-color: #D2D2D2;
-}
-
-.project_preview{
-  width: 300px;
-  float: right;
-  border: 2px solid #8F8F8F;
 }
 
 .project_block{
@@ -80,7 +80,7 @@ Blue4: #264778
   padding: 12px 0px 0px 0px;
 }
 
-.project_content{width: 75%;}
+.project_content{width: 70%; margin: 0px 0px 0px 6px; float: left;}
 .project_right{width: 25%; float: right;}
 
 .main {
@@ -96,8 +96,10 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1 {font-size: 54px; font-weight: 400; margin: 36px 0px 0px 50px; color: #264778;}
-h2 {font-size: 36px; font-weight: 700; margin: 0px 0px 0px 0px; padding: 30px 0px 10px 0px; color: #3F3F3F;}
-h3 {font-size: 30px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; color: #3F3F3F;}
-p  {font-size: 24px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; line-height: 1.5; color: #6F6F6F;}
-a  {text-decoration: none;}
+h1 {font-size: 54px; font-weight: 400; margin: 36px 0px 0px 50px; color: #264778; clear: both;}
+h2 {font-size: 36px; font-weight: 700; margin: 0px 0px 0px 0px; padding: 30px 0px 10px 0px; color: #3F3F3F; clear: both;}
+h3 {font-size: 30px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 10px 0px 10px 0px; color: #4F4F4F; clear: both;}
+p  {font-size: 24px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; line-height: 1.5; text-indent: 2em; color: #6F6F6F;}
+p a{color: #6F6F6F;} p a:hover{color: #4F4F4F;}
+img{border: 2px solid #8F8F8F;}
+video{border: 2px solid #8F8F8F;}
