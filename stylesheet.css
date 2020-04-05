@@ -79,7 +79,7 @@ Blue4: #264778
   border-radius: 8px;
   text-align: center;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: #6F6F6F;
 }
@@ -117,9 +117,9 @@ body {
 }
 
 h1 {font-size: 54px; font-weight: 400; margin: 36px 0px 0px 3.2%; color: #264778; clear: both;}
-h2 {font-size: 36px; font-weight: 700; margin: 0px 0px 0px 0px; padding: 30px 0px 0px 0px; color: #3F3F3F; clear: both;}
-h3 {font-size: 30px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 10px 0px 0px 0px; line-height: 1.5; color: #4F4F4F; clear: both;}
-p  {font-size: 24px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; line-height: 1.5; text-indent: 2em; color: #6F6F6F;}
+h2 {font-size: 36px; font-weight: 700; margin: 0px 0px 0px 0px; padding: 30px 0px 10px 0px; color: #3F3F3F; clear: both;}
+h3 {font-size: 28px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; line-height: 1.5; color: #4F4F4F; clear: both;}
+p  {font-size: 20px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; line-height: 1.5; text-indent: 2em; color: #6F6F6F;}
 p a{color: #6F6F6F;} p a:hover{color: #4F4F4F;}
 img{border: 2px solid #8F8F8F;}
 video{border: 2px solid #8F8F8F;}
