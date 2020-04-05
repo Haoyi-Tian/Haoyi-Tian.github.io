@@ -34,7 +34,7 @@ Blue4: #264778
 }
 
 .sidenav {
-  width: 10%;
+  width: 11.4%;
   position: fixed;
   top: 108px;
   left: 3.6%;
@@ -102,7 +102,7 @@ Blue4: #264778
 .project_right{width: 25%; float: right;}
 
 .main {
-  margin: 116px 0px 8px 14%;
+  margin: 116px 0px 8px 15%;
   padding: 0px 40px;
   border-left: 1px solid #4471A7;
 }
