@@ -28,16 +28,16 @@ Blue4: #264778
   position: fixed;
   top:0px; left: 0px;
   width: 100%;
-  height: 108px;
+  height: 96px;
   background-color: #D2D2D2;
   overflow: hidden;
 }
 
 .sidenav {
-  width: 11.4%;
+  width: 11.5%;
   position: fixed;
-  top: 108px;
-  left: 3.6%;
+  top: 96px;
+  left: 3.1%;
   overflow-x: hidden;
   padding: 8px 0;
 }
@@ -102,7 +102,7 @@ Blue4: #264778
 .project_right{width: 25%; float: right;}
 
 .main {
-  margin: 116px 0px 8px 15%;
+  margin: 104px 0px 8px 14.6%;
   padding: 0px 40px;
   border-left: 1px solid #4471A7;
 }
@@ -116,7 +116,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1 {font-size: 54px; font-weight: 400; margin: 36px 0px 0px 3.2%; color: #264778; clear: both;}
+h1 {font-size: 48px; font-weight: 400; margin: 30px 0px 0px 2.8%; color: #264778; clear: both; padding:0;}
 h2 {font-size: 36px; font-weight: 700; margin: 0px 0px 0px 0px; padding: 30px 0px 10px 0px; color: #3F3F3F; clear: both;}
 h3 {font-size: 28px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; line-height: 1.5; color: #4F4F4F; clear: both;}
 p  {font-size: 20px; font-weight: 400; margin: 0px 0px 0px 0px; padding: 0px 0px 10px 0px; line-height: 1.5; text-indent: 2em; color: #6F6F6F;}
