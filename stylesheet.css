@@ -109,6 +109,16 @@ Blue4: #264778
 
 .section {padding-bottom: 40px; overflow: hidden;}
 
+.matlab {
+  text-indent: 0em;
+  background-color: #FCFCFC;
+  padding: 0.5% 1%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: #2F2F2F;
+  line-height: 1.25;
+}
+
 body {
   background-color: #F2F2F2;
   padding: 0px 0px 0px 0px;
